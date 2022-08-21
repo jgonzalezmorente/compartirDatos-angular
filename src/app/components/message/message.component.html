@@ -1,0 +1,23 @@
+<h3>{{ name }}</h3>
+
+<div class="text-box" #msg>
+    
+    <div *ngFor     = "let message of messages" 
+          [ngClass] = "{'mio': message.id === id, 'de-otro': message.id !== id }">
+        
+          <span class     = "autor"
+                [ngStyle] = "{'background-color': message.color}">
+
+              {{ message.name }}
+
+           </span>
+
+        <div>{{ message.message }}</div>
+    </div>
+
+</div>
+
+<input type            = "text" 
+       placeholder     = "Escribe un mensaje..."
+       (keydown.enter) = "onEnter( txtMsg.value )" 
+       #txtMsg>

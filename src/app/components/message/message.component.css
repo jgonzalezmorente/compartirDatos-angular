@@ -1,0 +1,29 @@
+input {
+    width: 100%;
+}
+
+.text-box {
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    height: 50rem;
+    min-width: 30rem;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+
+.de-otro {
+    text-align: right;
+}
+
+.mio {
+    text-align: left;
+}
+
+.autor {
+    border-radius: 4rem;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+}

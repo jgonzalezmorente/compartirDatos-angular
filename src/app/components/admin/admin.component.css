@@ -1,0 +1,14 @@
+.admin {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.admin label {
+    flex-basis: 10rem;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.admin input {
+    flex-basis: calc( 100% - 10rem );
+}

@@ -1,0 +1,7 @@
+@media (min-width: 1030px) {
+    .messages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
